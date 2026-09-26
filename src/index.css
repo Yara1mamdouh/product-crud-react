@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background: #f5f7fb;
+    font-family: Arial, sans-serif;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+.card {
+    background: white;
+}
+
+input,
+textarea {
+    border-radius: 10px !important;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15) !important;
+}
+
+button {
+    border-radius: 10px !important;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
